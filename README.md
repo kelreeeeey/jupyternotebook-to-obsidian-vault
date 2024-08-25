@@ -148,3 +148,10 @@ as i meant before, i want my converted notebook be in a separate folder called `
 ![converter](figs/converter.png)  
 
 in general, you only have to change `VAULTS_DIR` variables in order to directly insert the converted notebook to your vaults, other than that, feel free to modify the code to match your workflow/preference(s). i specify the `JupyterNB` as folder name in function `create_output_directory`
+
+
+# I'm planning on
+
+1. explore the jinja and nbconvert format
+2. play with jupyter-notebook cell's tags
+3. read more about jinja thing 😔
