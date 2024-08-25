@@ -42,8 +42,10 @@ python converter.py <notebook_name.ipynb> <obsidian_folder_target>
 after run, it would show something like this
 ![terminal_output](figs/terminal_output.png)
 
+
 notice that the last argument `"8 - Works"` is one of my main folder in my vault. after i run that python script, it automatically creates a new folder called `JupyterNB` (u can name it whtvr you want by changing 1 line in the `converten.py`)
 ![target_dir](figs/target_dir.png)
+
 
 inside `JupyterNB` folder, nbconvert would automatically creates a folder with the same name as the input notebook name. inside that folder, there are
 1. a sub-folder (name appended with `_files`) to hold every figure existed in the notebook. 
