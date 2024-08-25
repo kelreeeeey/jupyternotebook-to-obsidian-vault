@@ -52,7 +52,7 @@ inside `JupyterNB` folder, nbconvert would automatically creates a folder with t
 2. converted markdown, and
 3. converted pdf
 
-more about the [converter.py](https://github.com/kelreeeeey/jupyternotebook-to-obsidian-vault/converter.py) in section [this section](https://github.com/kelreeeeey/jupyternotebook-to-obsidian-vault/tree/main#python--converterpy)
+more about the [converter.py](converter.py) in section [this section](https://github.com/kelreeeeey/jupyternotebook-to-obsidian-vault/tree/main#python--converterpy)
 
 here's the before afters
 | Jupyter Notebook       | Markdown               | Pdf                    |
@@ -79,7 +79,7 @@ for brevity, bellow are the main package i use:
 - nbconvert==7.16.4
 - notebook==6.4.12
 
-y'all can find (probably) all related python package in [py_reqs.txt](https://github.com/kelreeeeey/jupyternotebook-to-obsidian-vault/py_reqs.txt)
+y'all can find (probably) all related python package in [py_reqs.txt](py_reqs.txt)
 
 ### Obsidian
 
