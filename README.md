@@ -29,7 +29,7 @@ so, this workflow is based on
 
 folder structure in my obsidian look like this
 
-[](figs/folder_structure.png)
+![folder_struture](figs/folder_structure.png)
 
 ## How i use this
 
@@ -40,10 +40,10 @@ python converter.py <notebook_name.ipynb> <obsidian_folder_target>
 ```
 
 after run, it would show something like this
-[](terminal_output.png)
+![terminal_output](terminal_output.png)
 
 notice that the last argument `"8 - Works"` is one of my main folder in my vault. after i run that python script, it automatically creates a new folder called `JupyterNB` (u can name it whtvr you want by changing 1 line in the `converten.py`)
-[](figs/target_dir.png)
+![target_dir](figs/target_dir.png)
 
 inside `JupyterNB` folder, nbconvert would automatically creates a folder with the same name as the input notebook name. inside that folder, there are
 1. a sub-folder (name appended with `_files`) to hold every figure existed in the notebook. 
@@ -53,9 +53,10 @@ inside `JupyterNB` folder, nbconvert would automatically creates a folder with t
 more about the [[converter.py]] in section [[Jupyter Notebook Convert to Obsidian#The Scriptingss (jinja and python)|this section]]
 
 here's the before after
-Jupyter notebook: ![[notebook_before.png|350]]
-Markdown: ![[notebook_after.png|350]]
-Pdf: ![[notebook_pdf.png]]
+Jupyter notebook: ![notebook_before](figs/notebook_before.png)
+Markdown: ![notebook_after](figs/notebook_after.png)
+Pdf: ![notebook_pdf.png](figs/notebook_pdf)
+
 ## Dependencies
 
 ### Python 3.10
@@ -109,7 +110,7 @@ reviewed: false
 ```
 
 so the modified `null.j2` would look like this:
-![[null_ss.png]]
+![null_ss](figs/null_ss.png)
 
 for more detail of the format, please go to [The Notebook file format — nbformat 5.10 documentation](https://nbformat.readthedocs.io/en/latest/format_description.html) 
 #### `index.md.j2`
@@ -138,10 +139,10 @@ as you can see in the code snipet below, the output.metadata is a key-value pair
 ```
 
 so the modified `index.md.j2` would look like this:
-[](figs/index_md_ss.png)
+![index_md_ss](figs/index_md_ss.png)
 ### Python -`converter.py`
 
 as i meant before, i want my converted notebook be in a separate folder called `JupyterNB` regardless the target directory that were passed before. It is my preference as i can easily tell that whatever inside that folder, is generated from a jupyter notebook. feel free to explore tho, i don't want to dictate how people should take their notes in obsidian, im here to share :D. anyways, here's the snippet of the code
-[](figs/converter.png)  
+![converter](figs/converter.png)  
 
 in general, you only have to change `VAULTS_DIR` variables in order to directly insert the converted notebook to your vaults, other than that, feel free to modify the code to match your workflow/preference(s). i specify the `JupyterNB` as folder name in function `create_output_directory`
