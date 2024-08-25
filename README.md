@@ -52,10 +52,10 @@ inside `JupyterNB` folder, nbconvert would automatically creates a folder with t
 
 more about the [[converter.py]] in section [[Jupyter Notebook Convert to Obsidian#The Scriptingss (jinja and python)|this section]]
 
-here's the before after
-Jupyter notebook: ![notebook_before](figs/notebook_before.png)
-Markdown: ![notebook_after](figs/notebook_after.png)
-Pdf: ![notebook_pdf.png](figs/notebook_pdf)
+here's the before afters
+| Jupyter Notebook       | Markdown               | Pdf                    |
+| ---------------------- | ---------------------- | ---------------------- |
+| ![notebook_before](figs/notebook_before.png) | ![notebook_after](figs/notebook_after.png) | ![notebook_pdf.png](figs/notebook_pdf.png) |
 
 ## Dependencies
 
