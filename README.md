@@ -40,7 +40,7 @@ python converter.py <notebook_name.ipynb> <obsidian_folder_target>
 ```
 
 after run, it would show something like this
-![terminal_output](terminal_output.png)
+![terminal_output](figs/terminal_output.png)
 
 notice that the last argument `"8 - Works"` is one of my main folder in my vault. after i run that python script, it automatically creates a new folder called `JupyterNB` (u can name it whtvr you want by changing 1 line in the `converten.py`)
 ![target_dir](figs/target_dir.png)
@@ -50,7 +50,7 @@ inside `JupyterNB` folder, nbconvert would automatically creates a folder with t
 2. converted markdown, and
 3. converted pdf
 
-more about the [[converter.py]] in section [[Jupyter Notebook Convert to Obsidian#The Scriptingss (jinja and python)|this section]]
+more about the [converter.py](https://github.com/kelreeeeey/jupyternotebook-to-obsidian-vault/converter.py) in section [[Jupyter Notebook Convert to Obsidian#The Scriptingss (jinja and python)|this section]]
 
 here's the before afters
 | Jupyter Notebook       | Markdown               | Pdf                    |
@@ -61,7 +61,7 @@ here's the before afters
 
 ### Python 3.10
 
-y'all can go here to install [jupyter] and the [nbconvert](https://github.com/jupyter/nbconvert)
+y'all can go here to install [jupyter-notebook](https://jupyter.org/install#jupyter-notebook) and the [nbconvert](https://github.com/jupyter/nbconvert)
 or by run these commands on your terminal
 
 ```bash
@@ -77,7 +77,7 @@ for brevity, bellow are the main package i use:
 - nbconvert==7.16.4
 - notebook==6.4.12
 
-y'all can find (probably) all related python package in [[py_reqs.txt]]
+y'all can find (probably) all related python package in [py_reqs.txt](https://github.com/kelreeeeey/jupyternotebook-to-obsidian-vault/py_reqs.txt)
 
 ### Obsidian
 
